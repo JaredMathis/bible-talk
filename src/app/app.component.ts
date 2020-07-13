@@ -8,5 +8,5 @@ import data from './../assets/John.json';
 })
 export class AppComponent  {
   name = 'Angular ' + VERSION.major;
-
+  
 }
