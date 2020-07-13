@@ -1,4 +1,5 @@
 import { Component, VERSION } from '@angular/core';
+import * as data from './../assets/John.json';
 
 @Component({
   selector: 'my-app',
