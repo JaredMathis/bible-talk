@@ -1,5 +1,5 @@
 import { Component, VERSION } from '@angular/core';
-import * as data from './../assets/John.json';
+import data from './../assets/John.json';
 
 @Component({
   selector: 'my-app',
@@ -8,4 +8,5 @@ import * as data from './../assets/John.json';
 })
 export class AppComponent  {
   name = 'Angular ' + VERSION.major;
+
 }
